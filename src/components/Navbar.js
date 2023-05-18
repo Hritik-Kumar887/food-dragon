@@ -36,7 +36,7 @@ const Navbar = ({ setSearchTerm }) => {
     <nav style={{ backgroundColor: `${navColor}` }}>
       <div className="navbar">
         <div className="logo">
-          <h1 onClick={() => navigate("/")} style={{ cursor: "pointer" }}>Spicy Dragon</h1>
+          <h1 onClick={() => navigate("/")} style={{ cursor: "pointer" }}>Food Dragon</h1>
         </div>
         <div className="nav_search">
           <label htmlFor="search">Search: </label>
